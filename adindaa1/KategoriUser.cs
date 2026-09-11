@@ -41,7 +41,7 @@ namespace adindaa1
                 );
             }
         }
-
+        //github
         private void guna2TxtCariKategori_TextChanged(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
