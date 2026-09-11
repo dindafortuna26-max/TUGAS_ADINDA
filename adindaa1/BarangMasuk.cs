@@ -116,7 +116,7 @@ namespace adindaa1
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
-        }
+        }//uy
 
         private void guna2Button1Cetak_Click(object sender, EventArgs e)
         {
