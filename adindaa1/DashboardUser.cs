@@ -48,5 +48,17 @@ namespace adindaa1
         {
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            LihatBarang DataUser = new LihatBarang() { TopLevel = false, TopMost = true };
+            KAdinda.warung(DataUser, panel4);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            KategoriUser DataUser = new KategoriUser() { TopLevel = false, TopMost = true };
+            KAdinda.warung(DataUser, panel4);
+        }
     }
 }

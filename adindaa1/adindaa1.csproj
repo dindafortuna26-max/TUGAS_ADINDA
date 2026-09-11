@@ -91,11 +91,23 @@
     <Compile Include="Kategori.Designer.cs">
       <DependentUpon>Kategori.cs</DependentUpon>
     </Compile>
+    <Compile Include="KategoriUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KategoriUser.Designer.cs">
+      <DependentUpon>KategoriUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Laporan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Laporan.Designer.cs">
       <DependentUpon>Laporan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LihatBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatBarang.Designer.cs">
+      <DependentUpon>LihatBarang.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterRole.cs">
       <SubType>Form</SubType>
@@ -153,8 +165,14 @@
     <EmbeddedResource Include="Kategori.resx">
       <DependentUpon>Kategori.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KategoriUser.resx">
+      <DependentUpon>KategoriUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Laporan.resx">
       <DependentUpon>Laporan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatBarang.resx">
+      <DependentUpon>LihatBarang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterRole.resx">
       <DependentUpon>MasterRole.cs</DependentUpon>
@@ -290,6 +308,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-shopping-list-601.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-categories-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

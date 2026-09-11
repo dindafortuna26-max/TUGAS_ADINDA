@@ -133,6 +133,16 @@ namespace adindaa1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_categories_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-categories-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_category_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-category-30", resourceCulture);
